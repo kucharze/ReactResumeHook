@@ -23,6 +23,11 @@ const ResumeContextProvider = (props) => {
     let skill = prompt("Skill to add?");
     setSkills([...skills, skill]);
   };
+
+  const addExp = () => {
+    let exp = prompt("Experience to add?");
+    setExperience([...experience, exp]);
+  };
   return (
     <ResumeContext.Provider
       value={{
@@ -35,7 +40,7 @@ const ResumeContextProvider = (props) => {
         addSkill,
 
         experience,
-        setExperience,
+        addExp,
       }}
     >
       {props.children}

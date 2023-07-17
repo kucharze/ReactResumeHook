@@ -9,8 +9,6 @@ function App() {
     <div className="App">
       <Header />
       <Skills />
-
-      <h1>Add experience</h1>
       <Experience />
       <h1>Add References</h1>
     </div>
