@@ -1,4 +1,5 @@
-import React from 'react'
+import React, {useContext} from 'react'
+import {ResumeContext} from '../context/app_context'
 
 function References() {
   return (
