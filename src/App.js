@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
+import References from "./components/References";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <Header />
       <Skills />
       <Experience />
-      <h1>Add References</h1>
+      <References />
     </div>
   );
 }
