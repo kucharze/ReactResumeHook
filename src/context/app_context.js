@@ -6,6 +6,8 @@ const ResumeContextProvider = (props) => {
   const [skills, setSkills] = useState(["React", "javascript"]);
   const [name, setName] = useState("Zack");
   const [job, setJob] = useState("Software Engineer");
+  const [experience, setExperience] = useState(["Per Scholas"]);
+  const [references, setReferences] = useState(["Jordan Wafford"]);
 
   const changeName = () => {
     let n = prompt("Change name to what?");
@@ -23,7 +25,18 @@ const ResumeContextProvider = (props) => {
   };
   return (
     <ResumeContext.Provider
-      value={{ skills, addSkill, name, changeName, job, changeJob }}
+      value={{
+        name,
+        changeName,
+        job,
+        changeJob,
+
+        skills,
+        addSkill,
+
+        experience,
+        setExperience,
+      }}
     >
       {props.children}
     </ResumeContext.Provider>
