@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <h1>Add skills</h1>
       <Skills />
+      <h1>Add experience</h1>
       <h1>Add References</h1>
     </div>
   );
