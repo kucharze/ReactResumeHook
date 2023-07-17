@@ -6,6 +6,7 @@ function Skills() {
     
   return (
     <div>
+        <h1>My Skills</h1>
       <ul>
         {
             skills.map((item)=>{
@@ -13,6 +14,7 @@ function Skills() {
             })
         }
       </ul>
+      <button onClick={addSkill}>Add a skill</button>
     </div>
   )
 }
