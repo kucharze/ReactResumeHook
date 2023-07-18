@@ -16,22 +16,31 @@ const ResumeContextProvider = (props) => {
 
   const changeJob = () => {
     let j = prompt("Change position to what?");
-    setJob(j);
+    if (j !== null) {
+      setJob(j);
+    }
   };
 
   const addSkill = () => {
     let skill = prompt("Skill to add?");
-    setSkills([...skills, skill]);
+    if (skill !== null) {
+      setSkills([...skills, skill]);
+    }
   };
 
   const addExp = () => {
     let exp = prompt("Experience to add?");
-    setExperience([...experience, exp]);
+    if (exp !== null) {
+      setExperience([...experience, exp]);
+    }
   };
 
   const addRef = () => {
-    let ref = prompt("Experience to add?");
-    setReferences([...references, ref]);
+    let ref = prompt("Reference to add?");
+    console.log(ref);
+    if (ref !== null) {
+      setReferences([...references, ref]);
+    }
   };
   return (
     <ResumeContext.Provider
