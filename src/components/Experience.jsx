@@ -10,7 +10,7 @@ function Experience() {
       <ul className='items'>
         {
             experience.map((item)=>{
-                return <li>{item}</li>
+                return <li key={item}>{item}</li>
             })
         }
       </ul>

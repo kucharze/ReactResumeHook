@@ -10,7 +10,7 @@ function References() {
       <ul className='items'>
         {
             references.map((item)=>{
-                return <li>{item}</li>
+                return <li key={item}>{item}</li>
             })
         }
       </ul>
