@@ -4,9 +4,9 @@ import {ResumeContext} from '../context/app_context'
 function References() {
     let {references, addRef} = useContext(ResumeContext)
   return (
-    <div>
+    <div className='refs'>
       <h1>My References:</h1>
-      <ul>
+      <ul className='items'>
         {
             references.map((item)=>{
                 return <li>{item}</li>

@@ -7,9 +7,8 @@ function Header() {
     <div className='header'>
       <h1>{name}</h1>
       <h1>{job}</h1>
-      <button onClick={changeName}>Change name</button>
-      <button onClick={changeJob}>Change Position</button>
-      <hr />
+      <button className='change' onClick={changeName}>Change name</button>
+      <button className='change' onClick={changeJob}>Change Position</button>
     </div>
   )
 }

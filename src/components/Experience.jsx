@@ -4,16 +4,16 @@ import {ResumeContext} from '../context/app_context'
 function Experience() {
     let {experience, addExp} = useContext(ResumeContext)
   return (
-    <div>
+    <div className=''>
       <h1>My Experience:</h1>
-      <ul>
+      <ul className='items'>
         {
             experience.map((item)=>{
                 return <li>{item}</li>
             })
         }
       </ul>
-      <button onClick={addExp}>Add new Experience</button>
+      <button className='change' onClick={addExp}>Add new Experience</button>
     </div>
   )
 }

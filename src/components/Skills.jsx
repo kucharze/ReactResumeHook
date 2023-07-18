@@ -5,16 +5,16 @@ function Skills() {
     let {skills, addSkill} = useContext(ResumeContext)
     
   return (
-    <div>
+    <div className='skills'>
         <h1>My Skills</h1>
-      <ul>
+      <ul className='items'>
         {
             skills.map((item)=>{
                 return<li key={item}>{item}</li>
             })
         }
       </ul>
-      <button onClick={addSkill}>Add a skill</button>
+      <button className='change' onClick={addSkill}>Add a skill</button>
     </div>
   )
 }
