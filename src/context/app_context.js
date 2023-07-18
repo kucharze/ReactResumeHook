@@ -4,7 +4,7 @@ export const ResumeContext = createContext();
 
 const ResumeContextProvider = (props) => {
   const [skills, setSkills] = useState(["React", "javascript"]);
-  const [name, setName] = useState("Zack");
+  const [name, setName] = useState("Zachary Kuchar");
   const [job, setJob] = useState("Software Engineer");
   const [experience, setExperience] = useState(["Per Scholas"]);
   const [references, setReferences] = useState(["Jordan Wafford"]);
