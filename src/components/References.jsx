@@ -6,6 +6,14 @@ function References() {
   return (
     <div>
       <h1>My References:</h1>
+      <ul>
+        {
+            references.map((item)=>{
+                return <li>{item}</li>
+            })
+        }
+      </ul>
+      <button onClick={addRef}>Add new Reference</button>
     </div>
   )
 }
