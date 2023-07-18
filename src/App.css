@@ -7,12 +7,35 @@
 
 .header {
   border-bottom: solid black;
-  width: 40%;
+  width: 30%;
+  margin-bottom: 10px;
+}
+
+.skills {
+  border-bottom: solid black;
+  width: 30%;
+  margin-bottom: 10px;
+}
+
+.refs {
+  border-bottom: solid black;
+  width: 30%;
+  margin-bottom: 10px;
+}
+
+.exp {
+  border-bottom: solid black;
+  width: 30%;
+  margin-bottom: 10px;
 }
 
 .change {
   margin: 1em;
   font-size: 20px;
+}
+
+.items {
+  font-size: 25px;
 }
 
 .App-header {

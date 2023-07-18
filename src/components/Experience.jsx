@@ -4,7 +4,7 @@ import {ResumeContext} from '../context/app_context'
 function Experience() {
     let {experience, addExp} = useContext(ResumeContext)
   return (
-    <div className=''>
+    <div className='exp'>
       <h1>My Experience:</h1>
       <ul className='items'>
         {
