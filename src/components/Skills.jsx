@@ -7,6 +7,7 @@ function Skills() {
   return (
     <div className='skills'>
         <h1>My Skills</h1>
+         <hr />
       <ul className='items'>
         {
             skills.map((item)=>{

@@ -6,6 +6,7 @@ function References() {
   return (
     <div className='refs'>
       <h1>My References:</h1>
+      <hr />
       <ul className='items'>
         {
             references.map((item)=>{
@@ -13,7 +14,7 @@ function References() {
             })
         }
       </ul>
-      <button onClick={addRef}>Add new Reference</button>
+      <button className='change' onClick={addRef}>Add new Reference</button>
     </div>
   )
 }

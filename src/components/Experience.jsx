@@ -6,6 +6,7 @@ function Experience() {
   return (
     <div className='exp'>
       <h1>My Experience:</h1>
+       <hr />
       <ul className='items'>
         {
             experience.map((item)=>{
