@@ -5,7 +5,7 @@ function Experience() {
     let {experience, addExp} = useContext(ResumeContext)
   return (
     <div className='exp'>
-      <h1>My Experience:</h1>
+      <h1>Learning experiences:</h1>
        <hr />
       <ul className='items'>
         {
